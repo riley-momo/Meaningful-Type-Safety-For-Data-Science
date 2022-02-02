@@ -21,6 +21,6 @@ PopulationProvenance.idr contains the instantations of the provenance interface 
 Census.idr instantiates concepts contained within specific rows of the motivating data to be compatible with MeTS type-checking. In future development, this file would be automatically created from the source dataset.
 
 ### Main
-Main.idr is equivalent to the commands that the end-user data scientist would perform, and this is where type-checking actually occurs. It contains 9 different operations, the last 6 of which do not sucesfully type check as they are examples of datatype erros including ones of mereology, time, and provenance.
+Main.idr is equivalent to the commands that the end-user data scientist would perform, and this is where type-checking actually occurs. It contains 9 different operations, the last 6 of which do not sucesfully type check as they are examples of datatype errors including ones of mereology, time, and provenance.
 
 
